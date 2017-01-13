@@ -64,7 +64,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 // Syntax styles
 
 .syntax--comment {
-  color: @bright-gray;
+  color: white;
 }
 
 .syntax--keyword {
@@ -88,7 +88,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .syntax--storage {
-  color: @neon-purple;
+  color: @neon-blue;
 }
 
 .syntax--constant {
@@ -148,7 +148,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @bright-gray;
+      color: white;
     }
 
     &.syntax--string,
@@ -189,7 +189,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     color: @sfw-neon-yellow;
 
     &.syntax--any-method {
-      color: @sfw-neon-blue;
+      color: @sfw-neon-purple;
     }
   }
 }
@@ -200,14 +200,13 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
   &.syntax--name.syntax--type {
     color: @neon-orange;
-    text-decoration: underline;
   }
 
   &.syntax--other.syntax--inherited-class {
     color: @sfw-neon-orange;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @sfw-neon-green;
+    color: @neon-yellow;
   }
 
   &.syntax--name.syntax--section {
@@ -215,8 +214,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
-    text-decoration: underline;
+    color: @sfw-neon-purple;
   }
 
   &.syntax--other.syntax--attribute-name {
