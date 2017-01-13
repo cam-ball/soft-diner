@@ -64,11 +64,11 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 // Syntax styles
 
 .syntax--comment {
-  color: @bright-gray;
+  color: white;
 }
 
 .syntax--keyword {
-  color: @sfw-neon-green;
+  color: @neon-green;
 
   &.syntax--control {
     color: @neon-blue;
@@ -148,7 +148,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @bright-gray;
+      color: white;
     }
 
     &.syntax--string,
@@ -200,14 +200,13 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
   &.syntax--name.syntax--type {
     color: @neon-orange;
-    text-decoration: underline;
   }
 
   &.syntax--other.syntax--inherited-class {
     color: @sfw-neon-orange;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @sfw-neon-green;
+    color: @neon-yellow;
   }
 
   &.syntax--name.syntax--section {
@@ -216,7 +215,6 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
   &.syntax--name.syntax--tag {
     color: @sfw-neon-purple;
-    text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
