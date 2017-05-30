@@ -5,7 +5,9 @@
   "description": "A short description of your syntax theme",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "neon",
+    "dark"
   ],
   "repository": "https://github.com/atom/soft-diner-syntax",
   "license": "MIT",
