@@ -1,5 +1,7 @@
 <!-- Test PHP file -->
 
-<? php
-  echo "Hello, World!"
+<?php
+  $greeting = "Hello, world!";
+
+  echo $greeting;
 ?>

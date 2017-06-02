@@ -1,7 +1,7 @@
 // Test javascript file
 
 function helloWorld () {
-  alert("Hello, world!");
+  var greeting = "Hello, world!";
 
-  console.log("Hello, world!");
+  console.log(greeting);
 }

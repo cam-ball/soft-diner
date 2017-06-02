@@ -1,9 +1,11 @@
 // Test Java file
 
 public class HelloWorld {
-  
-  public static void main (){
-    System.out.printl("Hello, World!");
+
+  public static void main (String[] args){
+    String greeting = "Hello, World!";
+
+    System.out.println(greeting);
   }
 
 }

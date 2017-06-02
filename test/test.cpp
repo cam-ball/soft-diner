@@ -1,14 +1,14 @@
 // Test C++ file
 #include <iostream>
 
-using namespace std;
+void greeting();
 
 int main() {
-  greeting()
+  greeting();
 
   return 0;
 }
 
 void greeting() {
-  cout << "Hello, World!" << endl;
+  std::cout << "Hello, World!" << std::endl;
 }
