@@ -1,3 +1,3 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 1.0.0 - 06-01-2017
+* Formatted README.md
+* Tweaked test files
