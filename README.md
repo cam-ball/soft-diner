@@ -22,6 +22,8 @@ via Atom:
   - Search 'soft-diner'
   - ????
   - Profit
+  
+ Alternatively: https://atom.io/themes/soft-diner-syntax
 
 ---------------------------------------------------------------
 
